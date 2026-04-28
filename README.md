@@ -25,10 +25,10 @@ Nine relational tables covering orders, order items, payments, reviews, products
 
 ```
 .
-├── brazilian-ecommerce.ipynb     # Python: data inspection + cleaning, table-by-table null/dtype audit
-├── brazilian-ecommerce.sql       # PostgreSQL: 6-section analytical EDA (Q1–Q16) + Key Findings block
-├── Olist_Visualisation.twbx      # Tableau packaged workbook (open in Tableau Desktop / Public)
-├── dashboard.png                 # Static export of the final dashboard
+├── brazilian-ecommerce_cleaning.ipynb     # Python: data inspection + cleaning, table-by-table null/dtype audit
+├── brazilian-ecommerce_analysis.sql       # PostgreSQL: 6-section analytical EDA (Q1–Q16) + Key Findings block
+├── Olist_Visualisation.twbx               # Tableau packaged workbook (open in Tableau Desktop / Public)
+├── dashboard.png                          # Static export of the final dashboard
 └── README.md
 ```
 
