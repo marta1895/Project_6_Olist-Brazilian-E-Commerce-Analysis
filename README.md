@@ -4,7 +4,8 @@ End-to-end analysis of the Olist marketplace dataset (2016–2018, ~100K orders)
 
 ## Dashboard preview
 
-<img width="3400" height="2400" alt="dashboard" src="https://github.com/user-attachments/assets/03ae0a76-444b-4267-9032-72171f0006d6" />
+<img width="3400" height="2400" alt="dashboard" src="https://github.com/user-attachments/assets/2553d9d1-ef2f-42c2-980f-3b4293326e2b" />
+
 
 
 Interactive version on Tableau Public: *https://public.tableau.com/app/profile/marta.narozhnyak/viz/Olist_E-Commerce_Analysis/OlistBrazilianE-CommerceAnalysisDashboard*
@@ -27,7 +28,7 @@ Nine relational tables covering orders, order items, payments, reviews, products
 .
 ├── brazilian-ecommerce_cleaning.ipynb     # Python: data inspection + cleaning, table-by-table null/dtype audit
 ├── brazilian-ecommerce_analysis.sql       # PostgreSQL: 6-section analytical EDA (Q1–Q16) + Key Findings block
-├── Olist_Visualisation.twbx               # Tableau packaged workbook (open in Tableau Desktop / Public)
+├── Olist_E-Commerce_Visualisation.twbx    # Tableau packaged workbook (open in Tableau Desktop / Public)
 ├── dashboard.png                          # Static export of the final dashboard
 └── README.md
 ```
