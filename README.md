@@ -67,6 +67,6 @@ A `KEY FINDINGS` block at the end of the SQL file consolidates the conclusions (
 ## How to reproduce
 
 1. Download the dataset from Kaggle (link above) and load the nine CSVs into a PostgreSQL database. Table names used in the SQL file: `orders`, `order_items`, `payments`, `reviews`, `products`, `sellers`, `customers`, `geolocation`, `product_category`.
-2. Run `brazilian-ecommerce.ipynb` to reproduce the cleaning steps (null handling on `orders`, `reviews`, `products`).
-3. Run `brazilian-ecommerce.sql` section by section in DBeaver (or any Postgres client). Each section is self-contained and commented.
-4. Open `Olist_Visualisation.twbx` in Tableau Desktop or Tableau Public to explore the dashboard.
+2. Run `brazilian-ecommerce_cleaning.ipynb` to reproduce the cleaning steps (null handling on `orders`, `reviews`, `products`).
+3. Run `brazilian-ecommerce_analysis.sql` section by section in DBeaver (or any Postgres client). Each section is self-contained and commented.
+4. Open `Olist_E-Commerce_Visualisation.twbx` in Tableau Desktop or Tableau Public to explore the dashboard.
